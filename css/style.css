@@ -1,0 +1,190 @@
+@import url(font.css); 
+
+
+
+ body {
+      background-color: #FCFCFC;
+      font-family: RobotoLight;
+    }
+
+
+a {
+    font-size: 18.2px;
+    font-weight: 300;
+    font-family:RobotoLight;
+    color: #393939;
+}
+
+.header{
+  float:left;
+  margin-top:15px;
+
+}
+
+ul.kz-ru { 
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 70px;
+    margin-bottom: -10px;
+    padding-top: 12px;
+ 
+
+     /* верхний, правый, нижний, левый */
+}
+
+ul.kz-ru>li>a {
+    margin-left: 5px;
+}
+
+ul.nav {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    height: 87px;
+    
+    
+}
+
+li.open a{
+    background: #99ca3e;;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding:5px 21px 5px 18px;
+    border-radius:10px;
+    font-family: RobotoRegular;
+    font-size: 18.2px; 
+    height: 21px;
+    line-height: 0.7;
+    
+}
+
+
+hr{
+    margin-top: -5px;
+margin-bottom: 20px;
+ border-bottom: 1px #cccccc solid;
+ margin-left: -15px;
+ margin-right: -15px
+}
+
+div.item {
+    margin-top: 71px;
+    width: 1160px;
+    height: 394px;
+    background-color: #eeeff0;
+    
+}
+
+div.item > h2 {
+    margin-right: 150px;
+    width: 700px;
+    font-size: 40px;
+    float: right;
+}
+
+div.item > p {
+    width: 810px;
+    font-size: 20px;
+    float: right;
+    margin-top: -300px;
+    margin-right: 35px;
+    
+   
+}
+
+div.market {
+    float: right;
+}
+
+div.market > span {
+    margin-left: -46px;   
+}
+
+div.market > a > img {   
+    margin-bottom: -20px;
+    margin-left: 14px;
+}
+
+div.item > img {
+    margin-top: -50px;
+    
+}
+
+
+
+.container{
+     display: table;
+}
+
+.fright{
+    float:right;
+}
+
+.fleft{
+    float:left;
+}
+
+ul, ol {
+    list-style: none;
+        list-style-image: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+
+}
+
+
+.row{
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+.footer{
+    padding: 15px;
+   height:100px;
+
+    clear: both;
+    font-size: 10px;
+
+
+}
+
+.footer a{
+    color: #555;
+}
+
+
+
+.footer,.nav > li > a:hover  {
+    text-decoration: underline;
+background-color: #FCFCFC;
+}
+ .nav > li > a:focus
+
+.navfooter{
+    float: right;
+}
+
+
+    .lib-panel {
+      margin-bottom: 5px;
+
+    }
+    .lib-panel img {
+      width: 100%;
+      background-color: transparent;
+
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+
+
+

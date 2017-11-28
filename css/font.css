@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "RobotoRegular";
+    /* Имя шрифта */
+    src: /* Путь к файлу со шрифтом */
+      url("../fonts/Roboto/RobotoRegular/RobotoRegular.woff");
+  }
+
+@font-face {
+    font-family: "RobotoLight";
+    src: url("../fonts/Roboto/RobotoLight/RobotoLight.woff");
+}
